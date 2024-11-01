@@ -1,0 +1,32 @@
+/* Icons
+------------------------------------------------------ */
+
+.wpsm-icon-wrap {
+	display: inline-block;
+}
+.wpsm-icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.wpsm-icon a {
+	text-decoration: none;
+}
+.wpsm-icon i {
+	float: left;
+}
+.wpsm-icon i:before {
+	border: none !important;
+}
+.wpsm-icon-text {
+	display: table-cell;
+	text-align: left;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.wpsm-icon-text *:last-child {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.wpsm-icon-text a {
+	text-decoration: none;
+}
